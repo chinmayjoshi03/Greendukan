@@ -1,4 +1,3 @@
-// src/navigation/TabNavigator.js
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { View, Text, StyleSheet } from 'react-native';
@@ -13,7 +12,7 @@ import { SCREEN_NAMES } from '../utils/constants';
 
 const Tab = createBottomTabNavigator();
 
-// Placeholder screens for Scan and Insights
+
 const ScanScreen = () => (
   <View style={styles.placeholder}>
     <Icon name="qr-code-scanner" size={64} color={colors.textSecondary} />

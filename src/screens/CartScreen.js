@@ -1,4 +1,3 @@
-// src/screens/CartScreen.js
 import React from 'react';
 import {
   View,

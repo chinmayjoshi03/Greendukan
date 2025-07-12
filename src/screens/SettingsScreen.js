@@ -1,4 +1,3 @@
-// src/screens/SettingsScreen.js
 import React from 'react';
 import {
   View,
