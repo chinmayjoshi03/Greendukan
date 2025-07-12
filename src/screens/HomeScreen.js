@@ -38,7 +38,6 @@ const HomeScreen = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView showsVerticalScrollIndicator={false}>
-        {/* Header */}
         <View style={styles.header}>
           <View style={styles.headerLeft}>
             <TouchableOpacity style={styles.homeIcon}>
@@ -56,14 +55,12 @@ const HomeScreen = ({ navigation }) => {
           </TouchableOpacity>
         </View>
 
-        {/* Search Bar */}
         <SearchBar
           placeholder="What's your daily needs?"
           value={searchQuery}
           onChangeText={setSearchQuery}
         />
 
-        {/* Eco Score Card */}
         <EcoScore
           grade={ecoScore.grade}
           streak={ecoScore.streak}
@@ -72,7 +69,6 @@ const HomeScreen = ({ navigation }) => {
           weeklyGoal={ecoScore.weeklyGoal}
         />
 
-        {/* Trending Products */}
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Trending Products</Text>
           <FlatList
@@ -85,7 +81,6 @@ const HomeScreen = ({ navigation }) => {
           />
         </View>
 
-        {/* Deals of the Day */}
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Deals of the Day!</Text>
           <FlatList
@@ -98,7 +93,6 @@ const HomeScreen = ({ navigation }) => {
           />
         </View>
 
-        {/* Bottom Spacing */}
         <View style={styles.bottomSpacing} />
       </ScrollView>
     </SafeAreaView>

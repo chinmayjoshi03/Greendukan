@@ -32,7 +32,6 @@ const SettingsScreen = ({ navigation }) => {
           style: 'destructive',
           onPress: () => {
             dispatch(clearCart());
-            // Add logout logic here
             Alert.alert('Logged Out', 'You have been logged out successfully.');
           },
         },

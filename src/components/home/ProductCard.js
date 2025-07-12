@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, Image, StyleSheet, TouchableOpacity } from "react-native";
-import { colors } from "../../utils/colors"; // Adjust the import path as necessary
+import { colors } from "../../utils/colors";
 import Icon from "react-native-vector-icons/MaterialIcons"; 
 
 const ProductCard = ({ product, onAddToCart }) => {
